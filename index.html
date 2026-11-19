@@ -31,20 +31,27 @@
     <section id="contact" class="section contact-section"><div class="container contact-grid"><div><div class="eyebrow"><span class="eyebrow-line"></span> LET'S TALK</div><h2>What can we<br><em>help you with?</em></h2><p>Have a question about loans, accounts, or insurance? Send us a demo enquiry and see how the experience works.</p><div class="contact-hint">✳ This is a portfolio prototype. Messages are not sent to a bank or stored on a server.</div></div><form id="enquiry-form" class="enquiry-form"><label for="full-name">Your name</label><input required id="full-name" maxlength="80" name="name" placeholder="Enter your name" autocomplete="name"><label for="email">Email address</label><input required id="email" type="email" name="email" maxlength="120" placeholder="you@example.com" autocomplete="email"><label for="interest">I'm interested in</label><select id="interest" name="interest" required><option value="">Choose a service</option><option>Home loans</option><option>Personal loans</option><option>Auto loans</option><option>Savings & accounts</option><option>Insurance</option><option>General enquiry</option></select><label for="message">Your message</label><textarea id="message" name="message" rows="3" maxlength="600" placeholder="Tell us what you'd like to know..."></textarea><button type="submit" class="button button-lime">Submit demo enquiry <span>↗</span></button><p class="form-note" id="form-status" role="status" aria-live="polite">No information leaves your browser. Do not enter sensitive personal details.</p></form></div></section>
   </main>
   <footer class="footer"><div class="container footer-main"><div><a href="#home" class="logo logo-footer"><span class="logo-icon">✳</span><span>evergreen<span class="logo-bank">bank</span></span></a><p>Good things grow with the right support.</p></div><div class="footer-links"><a href="#accounts">Accounts</a><a href="#loans">Loans</a><a href="#insurance">Insurance</a><a href="#contact">Contact</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Evergreen Bank · Fictional brand for demonstration purposes only</span><span>No financial products, advice, or services are provided.</span></div></footer>
-  <script type="text/javascript" charset="utf-8">
-  (function (g, e, n, es, ys) {
-    g['_genesysJs'] = e;
-    g[e] = g[e] || function () {
-      (g[e].q = g[e].q || []).push(arguments)
-    };
-    g[e].t = 1 * new Date();
-    g[e].c = es;
-    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
-  })(window, 'Genesys', 'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
-    environment: 'prod-usw2',
-    deploymentId: '5e1f7968-f9c7-4ad5-9e55-b31b59b777b8'
-  });
+<script type="text/javascript" charset="utf-8">
+(function (g, e, n, es, ys) {
+  g['_genesysJs'] = e;
+  g[e] = g[e] || function () {
+    (g[e].q = g[e].q || []).push(arguments)
+  };
+  g[e].t = 1 * new Date();
+  g[e].c = es;
+  ys = document.createElement('script');
+  ys.async = 1;
+  ys.src = n;
+  ys.charset = 'utf-8';
+  document.head.appendChild(ys);
+})(window, 'Genesys',
+'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js',
+{
+  environment: 'prod-usw2',
+  deploymentId: '5e1f7968-f9c7-4ad5-9e55-b31b59b777b8'
+});
 </script>
+
 <script src="app.js"></script>
 </body>
 </html>
